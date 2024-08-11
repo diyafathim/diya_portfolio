@@ -1,0 +1,64 @@
+li{
+    display: inline;
+    padding: 30px;
+    color: black;
+    font-size: 22px;
+   
+}
+.container{
+    
+    padding: 10px;
+   
+   
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    color: rgb(29, 23, 23);
+}
+
+
+    
+
+ul{
+    text-align: right;
+   
+}
+.box-card{
+    height: 300px;
+    width: 300px;
+    border: 2px ;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+
+   
+} 
+
+
+body{
+    background-color: gray;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.right{
+    display: flex;
+    padding-top: 150px;
+    padding-left: 250px;
+}

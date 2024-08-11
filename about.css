@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+li{
+    color: white;
+    display: inline;
+    padding: 30px;
+    font-size: 22px;
+}
+ul{
+    text-align: right;
+}
+p{
+    padding: 20px 0px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+   
+}
+a{
+    color: white;
+    text-decoration-line: none;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+button{
+     background-color:green;
+   
+     
+    
+}
+.left img{
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 80px;
+    
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.insta i{
+    color: #d62976;
+    margin: 20px;
+
+}
+.whatsapp i{
+    color: green;
+}
+.mail {
+    color:blue;
+    padding: 0px 20px;
+}
+.linkedin{
+    padding: 0px 20px;
+}
+.colors{
+    color: green;
+}
