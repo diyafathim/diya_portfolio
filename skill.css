@@ -2,66 +2,51 @@ body{
     font-family: sans-serif;
     width: 95%;
     height: 90vh;
-    background-color: gray;
+    background-color:whitesmoke;
     
-}
-.skills{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-}
-.container{
-    width: 60%;
 }
 h2{
     text-align: center;
     text-decoration: underline;
 }
-.skill-grid{
-    display: flex;
-    gap: 10px;
-    margin: 10px 0px;
-}
-.skill_icon{
-    border: 1px solid #000;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-    padding: 30px;
-}
-.skill_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-}
-.html{
-    color: orangered;
-}
-.css{
-    color: blue;
-}
-.js{
-    color: yellow;
-}
-.python{
-    color: blue;
-}
 ul{
-    text-align:right ;
-}
-li{
-    color: black;
-    display: inline;
-    padding: 30px;
-    font-size: 22px;    
-}
+    color:white;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    li{
+        display: inline;
+       
+        padding: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color:white;
+      
+       } 
+        
 a{
-    color: black;
+    color:black;
     text-decoration-line: none;
+}
 
+.git{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.php{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 100px;
+}
+img{
+    padding-left: 100px;
+    padding-top: 50px;
+    width: 200px;
 }
